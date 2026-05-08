@@ -21,15 +21,6 @@ Local Storage API
 Font Awesome Icons
 
 
-#📁 Project Structure
-
-AI-Smart-Notes/
-│
-├── index.html      # Main HTML file
-├── style.css       # Styling file
-├── script.js       # JavaScript functionality
-└── README.md       # Project documentation
-
 🚀 How It Works
 1️⃣ Create a Note
 
