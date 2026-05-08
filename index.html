@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Smart Notes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2><i class="fas fa-brain"></i> AI Notes</h2>
+                <button id="new-note-btn"><i class="fas fa-plus"></i> New Note</button>
+            </div>
+            <ul id="notes-list">
+                <!-- Notes title will appear here -->
+            </ul>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="editor-container">
+            <div class="toolbar">
+                <input type="text" id="note-title" placeholder="Note Title..." />
+                <div class="ai-tools">
+                    <button id="ai-summarize" title="AI Summarize"><i class="fas fa-magic"></i> Summarize</button>
+                    <button id="save-note" title="Save"><i class="fas fa-save"></i> Save</button>
+                    <button id="delete-note" title="Delete"><i class="fas fa-trash"></i></button>
+                </div>
+            </div>
+            <textarea id="note-content" placeholder="Start writing your thoughts..."></textarea>
+            <div id="ai-status">AI is ready to help.</div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
