@@ -20,7 +20,9 @@ JavaScript (Vanilla JS)
 Local Storage API
 Font Awesome Icons
 
-📁 Project Structure
+
+#📁 Project Structure
+
 AI-Smart-Notes/
 │
 ├── index.html      # Main HTML file
